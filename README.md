@@ -49,7 +49,15 @@ and decide make some test to show the difference between *Flow* and *TypeScript*
     
     But when I run the same line with source build from *TypeScript*
     **nothing go happen**.
-    
+
+## How to run?
+
+```bash
+npm install     # install Jasmine (for unit tests)
+npm run build   # build basic scaffold
+npm test        # trigger unit tests!
+```
+
 ## Conclusions
 
 *Flow* is build to keep type in runtime.

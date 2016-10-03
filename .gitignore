@@ -1,5 +1,5 @@
 node_modules/
 npm-debug.log
 
-flow/bundle.js
-typescript/bundle.js
+source/flow/bundle.js
+source/typescript/bundle.js

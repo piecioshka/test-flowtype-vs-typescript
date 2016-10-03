@@ -1,7 +1,15 @@
 #!/usr/bin/env bash
 
-cd source/flow &&
-npm run build
+npm run clear &&
 
+# Flow
+cd source/flow &&
+npm install &&
+npm run build &&
+
+# TypeScript
 cd ../typescript/ &&
-npm run build
+npm install &&
+npm run build &&
+
+echo "Building complete"
