@@ -8,5 +8,4 @@ class Person {
     }
 }
 
-let p = new Person('asd');
-console.log(p);
+export default Person;

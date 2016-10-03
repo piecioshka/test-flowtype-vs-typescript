@@ -1,5 +1,13 @@
 {
     "private": true,
     "name": "test-flow-vs-typescript",
-    "version": "0.0.0"
+    "version": "0.0.0",
+    "scripts": {
+        "clear": "rm -rf node_modules/ source/flow/node_modules/ source/typescript/node_modules/ source/flow/bundle.js source/typescript/bundle.js",
+        "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
+        "build": "./tasks/build.sh"
+    },
+    "devDependencies": {
+        "jasmine": "^2.5.2"
+    }
 }

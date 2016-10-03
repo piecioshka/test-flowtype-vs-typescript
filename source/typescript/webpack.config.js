@@ -1,16 +1,19 @@
 'use strict';
 
 module.exports = {
-    entry: './index.js',
+    entry: './index.ts',
+
     output: {
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        libraryTarget: 'umd'
     },
+
     module: {
         loaders: [
             {
-                test: /^(.*)\.js$/,
+                test: /(.*)\.ts/,
                 exclude: /node_modules/,
-                loader: 'babel-loader'
+                loader: 'ts-loader'
             }
         ]
     }
