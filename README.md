@@ -1,11 +1,11 @@
 # test-flow-vs-typescript
 
-> :ledger: Test project, which show major difference between: [Flow](https://flowtype.org/) and [TypeScript](https://www.typescriptlang.org/)
+> :ledger: Test project, which shows major differences between: [Flow](https://flowtype.org/) and [TypeScript](https://www.typescriptlang.org/)
 
 ## Why?
 
-Couple day ago I was read comments under blog post http://michalzalecki.com/typescript-vs-flow/
-and I'm decided to make some test to show the major difference between *Flow* and *TypeScript*.
+Couple day ago I read comments on blog post http://michalzalecki.com/typescript-vs-flow/
+and I've decided to make some test to show the major differences between *Flow* and *TypeScript*.
 
 ## Source
 
