@@ -1,11 +1,11 @@
 # test-flow-vs-typescript
 
-> :ledger: Test project two static technics: [Flow](https://flowtype.org/) and [TypeScript](https://www.typescriptlang.org/)
+> :ledger: Test project, which show major difference between: [Flow](https://flowtype.org/) and [TypeScript](https://www.typescriptlang.org/)
 
 ## Why?
 
-I was read comments under blog post http://michalzalecki.com/typescript-vs-flow/
-and decide make some test to show the difference between *Flow* and *TypeScript*.
+Couple day ago I was read comments under blog post http://michalzalecki.com/typescript-vs-flow/
+and I'm decided to make some test to show the major difference between *Flow* and *TypeScript*.
 
 ## Source
 
@@ -45,10 +45,13 @@ and decide make some test to show the difference between *Flow* and *TypeScript*
     new Person(123);
     ```
 
-    with *Flow* I **got an error**. Hello BDD!
-    
-    But when I run the same line with source build from *TypeScript*
-    **nothing go happen**.
+* in **Flow** strategy I **got an error** &#x26D4; 
+
+    Hello BDD! Runtime error occur! &#x1F60E;
+
+* in **TypeScript** way **nothing go happen** ...
+
+    Eh... no runtime errors? Why? &#x1F631; 
 
 ## How to run?
 
@@ -60,9 +63,9 @@ npm test        # trigger unit tests!
 
 ## Conclusions
 
-*Flow* is build to keep type in runtime.
+**Flow** is invented to keep correct type in **runtime** (life application)
 
-*TypeScript* is build to keep type in translation process.
+**TypeScript** is invented to keep proper type in **translation process**.
     
 ## License
 

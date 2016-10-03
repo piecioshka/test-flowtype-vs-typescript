@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "test-flow-vs-typescript",
-    "description": "Test project two static technics: Flow and TypeScript",
+    "description": "Test project, which show major difference between: Flow and TypeScript",
     "version": "0.0.0",
     "scripts": {
         "clear": "rm -rf node_modules/ source/flow/node_modules/ source/typescript/node_modules/ source/flow/bundle.js source/typescript/bundle.js",
