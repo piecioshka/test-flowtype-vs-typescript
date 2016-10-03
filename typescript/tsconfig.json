@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "dist",
+        "allowJs": true,
+        "target": "es2015",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "inlineSourceMap": true
+    }
+}
