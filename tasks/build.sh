@@ -12,4 +12,4 @@ cd ../typescript/ &&
 npm install &&
 npm run build &&
 
-echo "Building complete"
+echo "Build complete"
