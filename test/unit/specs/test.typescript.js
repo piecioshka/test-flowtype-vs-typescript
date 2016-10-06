@@ -3,7 +3,7 @@
 let Person = require('../../../source/typescript/bundle').default;
 
 describe('TypeScript - static typed', () => {
-    it('should not throw an error when correct argument passed', () => {
+    it('should not throw an error when proper argument passed', () => {
         expect(() => {
             return new Person('123');
         }).not.toThrow();

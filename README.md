@@ -63,7 +63,7 @@ $ npm test        # trigger unit tests!
 
 ## Conclusions
 
-**Flow** was created to keep correct type during **runtime** (life application)
+**Flow** was created to keep proper type during **runtime** (life application)
 
 **TypeScript** was created to keep proper type during **translation process**.
     
