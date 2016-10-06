@@ -4,8 +4,8 @@
 
 ## Why?
 
-Couple day ago I read comments on blog post http://michalzalecki.com/typescript-vs-flow/
-and I've decided to make some test to show the major differences between *Flow* and *TypeScript*.
+A couple of days ago, I read comments in a blog post http://michalzalecki.com/typescript-vs-flow/
+and decided to run tests to show the major differences between *Flow* and *TypeScript*.
 
 ## Source
 
@@ -39,17 +39,17 @@ and I've decided to make some test to show the major differences between *Flow* 
     export default Person;
     ```
 
-3. After compilation when I run line
+3. After compilation when I run the line
     
     ```javascript
     new Person(123);
     ```
 
-* in **Flow** strategy I **got an error** &#x26D4; 
+* in the **Flow** strategy I **got an error** &#x26D4; 
 
     Hello BDD! Runtime error occur! &#x1F60E;
 
-* in **TypeScript** way **nothing go happen** ...
+* following the **TypeScript** way **nothing happens** ...
 
     Eh... no runtime errors? Why? &#x1F631; 
 
@@ -63,9 +63,9 @@ npm test        # trigger unit tests!
 
 ## Conclusions
 
-**Flow** is invented to keep correct type in **runtime** (life application)
+**Flow** was created to keep correct type during **runtime** (life application)
 
-**TypeScript** is invented to keep proper type in **translation process**.
+**TypeScript** was created to keep proper type during **translation process**.
     
 ## License
 
