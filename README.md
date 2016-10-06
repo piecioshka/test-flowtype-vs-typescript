@@ -55,7 +55,7 @@ and decided to run tests to show the major differences between *Flow* and *TypeS
 
 ## How to run?
 
-```
+```bash
 $ npm install     # install Jasmine (for unit tests)
 $ npm run build   # build basic scaffold
 $ npm test        # trigger unit tests!
