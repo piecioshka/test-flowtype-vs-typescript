@@ -1,10 +1,10 @@
 {
     "private": true,
-    "name": "test-flow-vs-typescript",
-    "description": "Test project, which shows major differences between: Flow and TypeScript",
+    "name": "test-flowtype-vs-typescript",
+    "description": "Test project, which shows major differences between: FlowType and TypeScript",
     "version": "0.0.0",
     "scripts": {
-        "clear": "rm -rf node_modules/ source/flow/node_modules/ source/typescript/node_modules/ source/flow/bundle.js source/typescript/bundle.js",
+        "clear": "rm -rf node_modules/ source/flowtype/node_modules/ source/typescript/node_modules/ source/flowtype/bundle.js source/typescript/bundle.js",
         "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
         "build": "./tasks/build.sh"
     },

@@ -2,8 +2,8 @@
 
 npm run clear &&
 
-# Flow
-cd source/flow &&
+# FlowType
+cd source/flowtype &&
 npm install &&
 npm run build &&
 

@@ -1,15 +1,15 @@
-# test-flow-vs-typescript
+# test-flowtype-vs-typescript
 
-> :ledger: Test project, which shows major differences between: [Flow](https://flowtype.org/) and [TypeScript](https://www.typescriptlang.org/)
+> :ledger: Test project, which shows major differences between: [FlowType](https://flowtype.org/) and [TypeScript](https://www.typescriptlang.org/)
 
 ## Why?
 
 A couple of days ago, I read comments in a blog post http://michalzalecki.com/typescript-vs-flow/
-and decided to run tests to show the major differences between *Flow* and *TypeScript*.
+and decided to run tests to show the major differences between *FlowType* and *TypeScript*.
 
 ## Source
 
-1. *Flow* source file.
+1. *FlowType* source file.
     
     ```javascript
     /* @flow */
@@ -45,7 +45,7 @@ and decided to run tests to show the major differences between *Flow* and *TypeS
     new Person(123);
     ```
 
-* in the **Flow** strategy I **got an error** &#x26D4; 
+* in the **FlowType** strategy I **got an error** &#x26D4; 
 
     Hello BDD! Runtime error occur! &#x1F60E;
 
@@ -63,7 +63,7 @@ $ npm test        # trigger unit tests!
 
 ## Conclusions
 
-**Flow** was created to keep proper type during **runtime** (life application)
+**FlowType** was created to keep proper type during **runtime** (life application)
 
 **TypeScript** was created to keep proper type during **translation process**.
     
