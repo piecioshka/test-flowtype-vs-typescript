@@ -9,6 +9,6 @@
         "build": "./tasks/build.sh"
     },
     "devDependencies": {
-        "jasmine": "^2.5.2"
+        "jasmine": "^3.4.0"
     }
 }

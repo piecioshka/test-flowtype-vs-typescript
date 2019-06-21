@@ -2,7 +2,7 @@
 
 const Person = require('../../source/typescript/bundle').default;
 
-describe('TypeScript - static typed', () => {
+describe('TypeScript', () => {
     it('should not throw an error when proper argument passed', () => {
         expect(() => {
             return new Person('123');
