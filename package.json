@@ -5,7 +5,7 @@
     "version": "0.0.0",
     "scripts": {
         "clear": "rm -rf node_modules/ source/flowtype/node_modules/ source/typescript/node_modules/ source/flowtype/bundle.js source/typescript/bundle.js",
-        "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
+        "test": "jasmine test/specs/**",
         "build": "./tasks/build.sh"
     },
     "devDependencies": {

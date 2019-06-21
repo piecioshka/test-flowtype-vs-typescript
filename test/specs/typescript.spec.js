@@ -1,17 +1,17 @@
 'use strict';
 
-let Person = require('../../../source/flowtype/bundle');
+const Person = require('../../source/typescript/bundle').default;
 
-describe('FlowType - BDD', () => {
+describe('TypeScript - static typed', () => {
     it('should not throw an error when proper argument passed', () => {
         expect(() => {
             return new Person('123');
         }).not.toThrow();
     });
 
-    it('should throw an error when bad argument passed', () => {
+    it('should throw an error when bad argument passed (but is not)', () => {
         expect(() => {
             return new Person(123);
-        }).toThrow();
+        }).not.toThrow();
     });
 });
