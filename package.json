@@ -3,6 +3,7 @@
     "name": "test-flowtype-vs-typescript",
     "description": "Test project, which shows major differences between: FlowType and TypeScript",
     "version": "0.0.0",
+    "license": "MIT",
     "scripts": {
         "clear": "rm -rf node_modules/ source/flowtype/node_modules/ source/typescript/node_modules/ source/flowtype/bundle.js source/typescript/bundle.js",
         "test": "jasmine test/specs/**",
