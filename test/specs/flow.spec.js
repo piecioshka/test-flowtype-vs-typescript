@@ -1,6 +1,6 @@
 'use strict';
 
-const Person = require('../../source/flowtype/bundle');
+const Person = require('../../src/flowtype/bundle');
 
 describe('FlowType', () => {
     it('should not throw an error when proper argument passed', () => {
