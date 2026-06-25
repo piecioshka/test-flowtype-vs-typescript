@@ -3,7 +3,7 @@
 npm run clear &&
 
 # FlowType
-cd source/flowtype &&
+cd src/flowtype &&
 npm install &&
 npm run build &&
 

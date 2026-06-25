@@ -64,7 +64,7 @@ npm test        # trigger unit tests!
 > Flow does **not** perform any runtime type checking — it is a static analysis tool, exactly like TypeScript.
 > The runtime error in the "FlowType" example above does **not** come from Flow; it comes from
 > [`babel-plugin-tcomb`](https://github.com/gcanti/babel-plugin-tcomb), which is enabled in
-> [`source/flowtype/.babelrc`](source/flowtype/.babelrc) and injects `tcomb` runtime assertions.
+> [`src/flowtype/.babelrc`](src/flowtype/.babelrc) and injects `tcomb` runtime assertions.
 > Flow's role here is only stripping the type annotations (`transform-flow-strip-types`).
 
 ## Conclusions

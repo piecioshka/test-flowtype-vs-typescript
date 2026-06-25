@@ -1,6 +1,6 @@
 'use strict';
 
-const Person = require('../../source/typescript/bundle').default;
+const Person = require('../../src/typescript/bundle').default;
 
 describe('TypeScript', () => {
     it('should not throw an error when proper argument passed', () => {
